@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Registration Form</h1>
+        <p class="subtitle">Create your student account</p>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm password" required>
+
+            <label>Date of Birth</label>
+            <input type="date" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <label>Gender</label>
+
+            <div class="gender">
+                <label>
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Other">
+                    Other
+                </label>
+            </div>
+
+            <label>Select Course</label>
+
+            <select required>
+                <option value="">Select Course</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+                <option>B.Sc</option>
+                <option>MCA</option>
+                <option>MBA</option>
+            </select>
+
+            <label>Address</label>
+
+            <textarea rows="3" placeholder="Enter your address"></textarea>
+
+            <div class="terms">
+                <input type="checkbox" required>
+                <span>I agree to the terms and conditions</span>
+            </div>
+
+            <button type="submit">Register Now</button>
+
+            <p class="login">
+                Already have an account?
+                <a href="#">Login</a>
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
